@@ -1,10 +1,10 @@
 //Arrays can hold different data types, even other arrays! A multi-dimensional array is one with entries that are themselves arrays.
 
 //a) Define and initialize the arrays specified in the exercise to hold the name, chemical symbol and mass for different elements.
-element1 = ['hydrogen', 'H', 1.008,'']
-element2 = ['helium', 'He', 4.003]
-element26 = ['iron', 'Fe', 55.85]
-element8=['oxygen','o',15.9994]
+let element1 = ['hydrogen', 'H', 1.008,'']
+let element2 = ['helium', 'He', 4.003]
+let element26 = ['iron', 'Fe', 55.85]
+let element8=['oxygen','o',15.9994]
 //b) Define the array 'table', and use 'push' to add each of the element arrays to it. Print 'table' to see its structure.
 let table=[];
 element1.push('first element')
